@@ -46,9 +46,9 @@ The application requires two API keys:
 2. **Google Maps API Key**: For directions functionality
    - Get it from: https://developers.google.com/maps/documentation/android-sdk/get-api-key
 
-## Screenshots
+## Video
 
-[Screenshots would be added here]
+https://github.com/user-attachments/assets/1f35b25e-43ca-4594-a455-9b685a877c59
 
 ## Requirements
 
