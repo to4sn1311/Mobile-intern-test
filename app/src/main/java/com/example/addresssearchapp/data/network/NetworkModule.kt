@@ -28,13 +28,4 @@ object NetworkModule {
             .build()
             .create(LocationApiService::class.java)
     }
-    
-    val directionsApiService: DirectionsApiService by lazy {
-        Retrofit.Builder()
-            .baseUrl(DIRECTIONS_BASE_URL)
-            .client(okHttpClient)
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-            .create(DirectionsApiService::class.java)
-    }
 }
