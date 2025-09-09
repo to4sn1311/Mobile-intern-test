@@ -13,3 +13,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# API keys and secrets
+apikeys.properties
+secrets.xml
+google-services.json
+keystore.properties
+**/*/res/values/secrets.xml
+
+# Sensitive files
+**/*/res/values/api_keys.xml

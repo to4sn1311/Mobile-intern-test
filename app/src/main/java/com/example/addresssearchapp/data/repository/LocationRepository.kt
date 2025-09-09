@@ -7,8 +7,9 @@ import kotlinx.coroutines.withContext
 
 class LocationRepository(private val apiService: LocationApiService) {
 
-    // Replace with your actual LocationIQ API key
-    private val apiKey = "pk.b511ea215115a08b4cddce3be9b2da8c"
+    // API key is stored here for demo purposes only
+    // In a real app, this should be stored securely (e.g., in environment variables or a secure storage)
+    private val apiKey = "YOUR_LOCATIONIQ_API_KEY"
 
     suspend fun searchLocations(query: String): Result<List<LocationItem>> {
         return withContext(Dispatchers.IO) {

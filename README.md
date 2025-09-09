@@ -42,9 +42,25 @@ The application requires two API keys:
 1. **LocationIQ API Key**: For address search functionality
 
    - Get it from: https://locationiq.com/
+   - Replace the placeholder in `LocationRepository.kt` with your actual key
 
 2. **Google Maps API Key**: For directions functionality
    - Get it from: https://developers.google.com/maps/documentation/android-sdk/get-api-key
+   - Replace the placeholder in `AndroidManifest.xml` and `MainActivity.kt` with your actual key
+
+### API Key Security
+
+⚠️ **Important**: The API keys in this repository are placeholders. For security reasons:
+
+1. Never commit real API keys to public repositories
+2. Replace the placeholder values with your actual keys locally
+3. Consider using more secure approaches in production:
+   - Environment variables
+   - CI/CD secrets management
+   - Server-side proxies for API calls
+   - Encrypted local storage
+
+The `.gitignore` file is configured to prevent accidental commits of files that might contain API keys.
 
 ## Video
 
